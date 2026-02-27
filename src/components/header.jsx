@@ -9,7 +9,7 @@ import {
 } from "@clerk/clerk-react"
 
 import { BriefcaseBusiness, Heart, PenBox } from "lucide-react"
-import { Button } from "./button"
+import { Button } from "./ui/button"
 import { useEffect, useState } from "react"
 
 const Header = () => {

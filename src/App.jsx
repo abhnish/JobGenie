@@ -1,13 +1,13 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import LandingPage from "./pages/landing";
 import Onboarding from "./pages/onboarding";
-import ProtectedRoute from "./components/ui/protected-route";
+import ProtectedRoute from "./components/protected-route";
 import JobListing from "./pages/job-listing";
 import PostJob from "./pages/post-job";
 import MyJobs from "./pages/my-jobs";
 import SavedJobs from "./pages/saved-job";
 import JobPage from "./pages/job";
-import { ThemeProvider } from "./components/ui/theme-provider";
+import { ThemeProvider } from "./components/theme-provider";
 import AppLayout from "./layouts/app-layout";
 import "./App.css";
 
